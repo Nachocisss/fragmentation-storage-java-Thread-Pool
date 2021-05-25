@@ -1,0 +1,13 @@
+all: Server.class
+
+Server.class: Server.java
+	javac Server.java
+
+Server:
+	java Server
+
+
+clean :
+	rm -f *.class
+
+

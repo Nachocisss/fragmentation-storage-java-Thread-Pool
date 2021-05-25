@@ -1,0 +1,12 @@
+all: Client.class
+
+Client.class: Client.java
+	javac Client.java
+
+Client:
+	java Client
+
+clean :
+	rm -f *.class
+
+
